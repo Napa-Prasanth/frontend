@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+
+<nav>
+        <a href="Activity Log.html">Activity Log </a>
+        <a href="first.html">first</a>
+        <a href="Notification & Alert.html">Notification & Alert</a>
+        <a href="Settings&config.html">Settings&config</a>
+        <a href="Support&help.html">Support&help</a>
+        <a href="useprofile.html">useprofile</a>
+        <a href="Login.html">Login</a>
+    </nav>
+
+<h1>User Profile</h1>
+
+<div>
+    <h2>Profile Photo</h2>
+    <img src="profile-placeholder.png" alt="Profile Photo" width="100" height="100">
+    <button>Change Photo</button>
+</div>
+
+<form>
+    <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+
+    <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+    </div>
+
+    <div>
+        <label for="bio">Bio</label>
+        <input type="text" id="bio" name="bio" placeholder="Tell us about yourself">
+    </div>
+
+    <div>
+        <h2>Settings</h2>
+        <div>
+            <label for="notifications">Enable Notifications</label>
+            <input type="checkbox" id="notifications" name="notifications">
+        </div>
+        <div>
+            <label for="theme">Theme</label>
+            <select id="theme" name="theme">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+        </div>
+    </div>
+
+    <button type="submit">Save Changes</button>
+</form>
+
+</body>
+</html>
